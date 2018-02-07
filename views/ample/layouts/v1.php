@@ -37,7 +37,7 @@
     <div id="page-wrapper">
       <div class="container-fluid">
 
-        @yield('pg-content')
+        <!-- @yield('pg-content') -->
 
       </div>
       <!-- /.container-fluid -->
