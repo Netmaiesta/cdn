@@ -5,20 +5,20 @@
   <div class="navbar-header">
     <div class="top-left-part">
       <!-- Logo -->
-      <a class="logo" href="{{url('/')}}">
+      <a class="logo" href="">
         <!-- Logo icon image, you can use font-icon also -->
         <b>
           <!--This is dark logo icon-->
-          <img src="https://cdn.rawgit.com/Netmaiesta/cdn/c81ef894/assets/plugins/images/admin-logo-v1.png" alt="home" class="dark-logo" />
+          <img src="https://placehold.it/50x50" alt="home" class="dark-logo" />
           <!--This is light logo icon-->
-          <img src="https://cdn.rawgit.com/Netmaiesta/cdn/c81ef894/assets/plugins/images/admin-logo-v1.png" alt="home" class="light-logo" />
+          <img src="https://placehold.it/50x50" alt="home" class="light-logo" />
         </b>
         <!-- Logo text image you can use text also -->
         <span class="hidden-xs">
           <!--This is dark logo text-->
-          <img src="https://cdn.rawgit.com/Netmaiesta/cdn/c81ef894/assets/plugins/images/admin-text-v1.png" alt="home" class="dark-logo" />
+          <img src="https://placehold.it/50x50" alt="home" class="dark-logo" />
           <!--This is light logo text-->
-          <img src="https://cdn.rawgit.com/Netmaiesta/cdn/c81ef894/assets/plugins/images/admin-text-v1.png" alt="home" class="light-logo" />
+          <img src="https://placehold.it/50x50" alt="home" class="light-logo" />
         </span>
       </a>
     </div>
