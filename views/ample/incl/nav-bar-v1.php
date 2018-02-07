@@ -9,16 +9,16 @@
         <!-- Logo icon image, you can use font-icon also -->
         <b>
           <!--This is dark logo icon-->
-          <img src="{{asset('nmt-tmpl')}}/plugins/images/admin-logo-v1.png" alt="home" class="dark-logo" />
+          <img src="https://cdn.rawgit.com/Netmaiesta/cdn/c81ef894/assets/plugins/images/admin-logo-v1.png" alt="home" class="dark-logo" />
           <!--This is light logo icon-->
-          <img src="{{asset('nmt-tmpl')}}/plugins/images/admin-logo-v1.png" alt="home" class="light-logo" />
+          <img src="https://cdn.rawgit.com/Netmaiesta/cdn/c81ef894/assets/plugins/images/admin-logo-v1.png" alt="home" class="light-logo" />
         </b>
         <!-- Logo text image you can use text also -->
         <span class="hidden-xs">
           <!--This is dark logo text-->
-          <img src="{{asset('nmt-tmpl')}}/plugins/images/admin-text-v1.png" alt="home" class="dark-logo" />
+          <img src="https://cdn.rawgit.com/Netmaiesta/cdn/c81ef894/assets/plugins/images/admin-text-v1.png" alt="home" class="dark-logo" />
           <!--This is light logo text-->
-          <img src="{{asset('nmt-tmpl')}}/plugins/images/admin-text-v1.png" alt="home" class="light-logo" />
+          <img src="https://cdn.rawgit.com/Netmaiesta/cdn/c81ef894/assets/plugins/images/admin-text-v1.png" alt="home" class="light-logo" />
         </span>
       </a>
     </div>
@@ -38,7 +38,7 @@
           <li>
             <div class="message-center">
               <a href="#">
-                <div class="user-img"> <img src="{{asset('nmt-tmpl')}}/plugins/images/users/pawandeep.jpg" alt="user" class="img-circle"> <span class="profile-status online pull-right"></span> </div>
+                <div class="user-img"> <img src="https://cdn.rawgit.com/Netmaiesta/cdn/c81ef894/assets/plugins/images/users/pawandeep.jpg" alt="user" class="img-circle"> <span class="profile-status online pull-right"></span> </div>
                 <div class="mail-contnet">
                   <h5>Pavan kumar</h5> <span class="mail-desc">Pavi Car Sales Pvt Ltd</span> <span class="time">2 Days ago</span> </div>
               </a>
@@ -62,7 +62,7 @@
             <li>
               <div class="message-center">
                 <a href="#">
-                  <div class="user-img"> <img src="{{asset('nmt-tmpl')}}/plugins/images/users/pawandeep.jpg" alt="user" class="img-circle"> <span class="profile-status online pull-right"></span> </div>
+                  <div class="user-img"> <img src="https://cdn.rawgit.com/Netmaiesta/cdn/c81ef894/assets/plugins/images/users/pawandeep.jpg" alt="user" class="img-circle"> <span class="profile-status online pull-right"></span> </div>
                   <div class="mail-contnet">
                     <h5>Pavan kumar</h5> <span class="mail-desc">Pavi Car Sales Pvt Ltd</span> <span class="time">2 Days ago</span> </div>
                 </a>
@@ -74,8 +74,7 @@
           </ul>
       </li>
 
-      @php
-        /*
+
         <!-- .Megamenu -->
         <li class="mega-dropdown"> <a class="dropdown-toggle waves-effect waves-light" data-toggle="dropdown" href="#"><span class="hidden-xs">Mega</span> <i class="icon-options-vertical"></i></a>
           <ul class="dropdown-menu mega-dropdown-menu animated bounceInDown">
@@ -134,8 +133,7 @@
           </ul>
         </li>
         <!-- /.Megamenu -->
-        */
-      @endphp
+
 
     </ul>
 
@@ -145,21 +143,21 @@
           <input type="text" placeholder="Search..." class="form-control"> <a href=""><i class="fa fa-search"></i></a> </form>
       </li>
       <li class="dropdown">
-        <a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#"> <img style="height:36px;width:36px" onerror="this.src='https://placehold.it/128x128?text=No+Image'" src="{{ NetmaiestaClass::getAdminPath(TRUE) . '/thumb_' . session('aUser')->avatar }}" alt="user-img" width="36" class="img-circle"><b class="hidden-xs">
-          {{ session('aUser')->name }}</b><span class="caret"></span> </a>
+        <a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#"> <img style="height:36px;width:36px" onerror="this.src='https://placehold.it/128x128?text=No+Image'" src="" alt="user-img" width="36" class="img-circle"><b class="hidden-xs">
+          Name</b><span class="caret"></span> </a>
         <ul class="dropdown-menu dropdown-user animated flipInY">
           <li>
             <div class="dw-user-box" style="text-overflow: ellipsis;overflow: hidden;white-space: nowrap;">
               <div class="u-img"><img  height="80" width="80" onerror="this.src='https://placehold.it/128x128?text=No+Image'" src="{{ NetmaiestaClass::getAdminPath(TRUE) . '/thumb_' . session('aUser')->avatar }}" alt="user" /></div>
               <div class="u-text">
-                <h4>{{ session('aUser')->name }}</h4>
-                <p class="text-muted">{{ session('aUser')->email }}</p><a href="{{ route('profile') }}" class="btn btn-rounded btn-danger btn-sm">View Profile</a></div>
+                <h4>Name</h4>
+                <p class="text-muted">Email</p><a href="" class="btn btn-rounded btn-danger btn-sm">View Profile</a></div>
             </div>
           </li>
           <li role="separator" class="divider"></li>
-          <li><a href="{{ route('profile') }}"><i class="ti-user"></i> My Profile</a></li>
+          <li><a href=""><i class="ti-user"></i> My Profile</a></li>
           <li role="separator" class="divider"></li>
-          <li><a href="{{ route('logout') }}"><i class="fa fa-power-off"></i> Logout</a></li>
+          <li><a href=""><i class="fa fa-power-off"></i> Logout</a></li>
         </ul>
         <!-- /.dropdown-user -->
       </li>
