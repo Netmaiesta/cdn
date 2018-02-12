@@ -22,7 +22,7 @@
 <!-- Select2 CSS -->
 <link href="https://cdn.rawgit.com/Netmaiesta/cdn/c81ef894/assets/plugins/bower_components/select2/dist/css/select2.min.css" rel="stylesheet" />
 <!-- Datepicker -->
-<link href="https://cdn.rawgit.com/Netmaiesta/cdn/c81ef894/assets/plugins/bower_components/datepicker/dist/datepicker.min.css" rel="stylesheet" />
+<!-- <link href="https://cdn.rawgit.com/Netmaiesta/cdn/c81ef894/assets/plugins/bower_components/datepicker/dist/datepicker.min.css" rel="stylesheet" /> -->
 <!-- Cropper -->
 <link href="https://cdn.rawgit.com/Netmaiesta/cdn/c81ef894/assets/plugins/node_modules/cropperjs/dist/cropper.min.css" rel="stylesheet" />
 <!--Fancybox-->

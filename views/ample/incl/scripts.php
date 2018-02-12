@@ -33,7 +33,7 @@
 <script src="https://cdn.rawgit.com/Netmaiesta/cdn/c81ef894/assets/plugins/bower_components/summernote/dist/summernote.min.js"></script>
 <script src="https://cdn.rawgit.com/Netmaiesta/cdn/c81ef894/assets/plugins/bower_components/select2/dist/js/select2.min.js"></script>
 
-<script src="https://cdn.rawgit.com/Netmaiesta/cdn/c81ef894/assets/plugins/bower_components/datepicker/dist/datepicker.min.js"></script>
+<!-- <script src="https://cdn.rawgit.com/Netmaiesta/cdn/c81ef894/assets/plugins/bower_components/datepicker/dist/datepicker.min.js"></script> -->
 
 <script src="https://cdn.rawgit.com/Netmaiesta/cdn/c81ef894/assets/plugins/bower_components/ckeditor/ckeditor_sinhala/ckeditor.js"></script>
 
